@@ -1,5 +1,5 @@
 ﻿$sourceFolder = "C:\Windows\Prefetch"
-$destinationFolder = "C:\Users\J.Hollon\Desktop\pf"
+$destinationFolder = "<where you want to put the files>"
 
 $prefetchFiles = Get-ChildItem -Path $sourceFolder -Filter "*.pf" -Recurse
 
